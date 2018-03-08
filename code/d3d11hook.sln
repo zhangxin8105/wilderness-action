@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "d3d11hook", "d3d11hook.vcxproj", "{119F3BCC-4D4E-4FDA-877E-A708963BB87A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Injector", "Injector\Injector.vcxproj", "{C3A061D2-B694-4C89-A875-DED5CB55B73C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApplication1", "..\ConsoleApplication1\ConsoleApplication1.vcxproj", "{15EAABB8-21D6-4CB8-BD07-C971FE6384A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		noHeight|Any CPU = noHeight|Any CPU
+		noHeight|x64 = noHeight|x64
+		noHeight|x86 = noHeight|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{119F3BCC-4D4E-4FDA-877E-A708963BB87A}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{119F3BCC-4D4E-4FDA-877E-A708963BB87A}.Debug|x64.ActiveCfg = Debug|x64
+		{119F3BCC-4D4E-4FDA-877E-A708963BB87A}.Debug|x64.Build.0 = Debug|x64
+		{119F3BCC-4D4E-4FDA-877E-A708963BB87A}.Debug|x86.ActiveCfg = Debug|Win32
+		{119F3BCC-4D4E-4FDA-877E-A708963BB87A}.Debug|x86.Build.0 = Debug|Win32
+		{119F3BCC-4D4E-4FDA-877E-A708963BB87A}.noHeight|Any CPU.ActiveCfg = noHeight|Win32
+		{119F3BCC-4D4E-4FDA-877E-A708963BB87A}.noHeight|x64.ActiveCfg = noHeight|x64
+		{119F3BCC-4D4E-4FDA-877E-A708963BB87A}.noHeight|x64.Build.0 = noHeight|x64
+		{119F3BCC-4D4E-4FDA-877E-A708963BB87A}.noHeight|x86.ActiveCfg = noHeight|Win32
+		{119F3BCC-4D4E-4FDA-877E-A708963BB87A}.noHeight|x86.Build.0 = noHeight|Win32
+		{119F3BCC-4D4E-4FDA-877E-A708963BB87A}.Release|Any CPU.ActiveCfg = Release|Win32
+		{119F3BCC-4D4E-4FDA-877E-A708963BB87A}.Release|x64.ActiveCfg = Release|x64
+		{119F3BCC-4D4E-4FDA-877E-A708963BB87A}.Release|x64.Build.0 = Release|x64
+		{119F3BCC-4D4E-4FDA-877E-A708963BB87A}.Release|x86.ActiveCfg = Release|Win32
+		{119F3BCC-4D4E-4FDA-877E-A708963BB87A}.Release|x86.Build.0 = Release|Win32
+		{C3A061D2-B694-4C89-A875-DED5CB55B73C}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{C3A061D2-B694-4C89-A875-DED5CB55B73C}.Debug|x64.ActiveCfg = Debug|x64
+		{C3A061D2-B694-4C89-A875-DED5CB55B73C}.Debug|x64.Build.0 = Debug|x64
+		{C3A061D2-B694-4C89-A875-DED5CB55B73C}.Debug|x86.ActiveCfg = Debug|Win32
+		{C3A061D2-B694-4C89-A875-DED5CB55B73C}.Debug|x86.Build.0 = Debug|Win32
+		{C3A061D2-B694-4C89-A875-DED5CB55B73C}.noHeight|Any CPU.ActiveCfg = noHeight|Win32
+		{C3A061D2-B694-4C89-A875-DED5CB55B73C}.noHeight|x64.ActiveCfg = noHeight|x64
+		{C3A061D2-B694-4C89-A875-DED5CB55B73C}.noHeight|x64.Build.0 = noHeight|x64
+		{C3A061D2-B694-4C89-A875-DED5CB55B73C}.noHeight|x86.ActiveCfg = noHeight|Win32
+		{C3A061D2-B694-4C89-A875-DED5CB55B73C}.noHeight|x86.Build.0 = noHeight|Win32
+		{C3A061D2-B694-4C89-A875-DED5CB55B73C}.Release|Any CPU.ActiveCfg = Release|Win32
+		{C3A061D2-B694-4C89-A875-DED5CB55B73C}.Release|x64.ActiveCfg = Release|x64
+		{C3A061D2-B694-4C89-A875-DED5CB55B73C}.Release|x64.Build.0 = Release|x64
+		{C3A061D2-B694-4C89-A875-DED5CB55B73C}.Release|x86.ActiveCfg = Release|Win32
+		{C3A061D2-B694-4C89-A875-DED5CB55B73C}.Release|x86.Build.0 = Release|Win32
+		{15EAABB8-21D6-4CB8-BD07-C971FE6384A4}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{15EAABB8-21D6-4CB8-BD07-C971FE6384A4}.Debug|x64.ActiveCfg = Debug|x64
+		{15EAABB8-21D6-4CB8-BD07-C971FE6384A4}.Debug|x64.Build.0 = Debug|x64
+		{15EAABB8-21D6-4CB8-BD07-C971FE6384A4}.Debug|x86.ActiveCfg = Debug|Win32
+		{15EAABB8-21D6-4CB8-BD07-C971FE6384A4}.Debug|x86.Build.0 = Debug|Win32
+		{15EAABB8-21D6-4CB8-BD07-C971FE6384A4}.noHeight|Any CPU.ActiveCfg = Release|x64
+		{15EAABB8-21D6-4CB8-BD07-C971FE6384A4}.noHeight|Any CPU.Build.0 = Release|x64
+		{15EAABB8-21D6-4CB8-BD07-C971FE6384A4}.noHeight|x64.ActiveCfg = Release|x64
+		{15EAABB8-21D6-4CB8-BD07-C971FE6384A4}.noHeight|x64.Build.0 = Release|x64
+		{15EAABB8-21D6-4CB8-BD07-C971FE6384A4}.noHeight|x86.ActiveCfg = Release|Win32
+		{15EAABB8-21D6-4CB8-BD07-C971FE6384A4}.noHeight|x86.Build.0 = Release|Win32
+		{15EAABB8-21D6-4CB8-BD07-C971FE6384A4}.Release|Any CPU.ActiveCfg = Release|Win32
+		{15EAABB8-21D6-4CB8-BD07-C971FE6384A4}.Release|x64.ActiveCfg = Release|x64
+		{15EAABB8-21D6-4CB8-BD07-C971FE6384A4}.Release|x64.Build.0 = Release|x64
+		{15EAABB8-21D6-4CB8-BD07-C971FE6384A4}.Release|x86.ActiveCfg = Release|Win32
+		{15EAABB8-21D6-4CB8-BD07-C971FE6384A4}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
